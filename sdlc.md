@@ -104,7 +104,7 @@ Currently **not in use**. If reintroduced:
 
 ### 6.10 KPIs & Continual Improvement
 - Mean Time to Remediate (MTTR) *critical* findings < 7 days.
-- >= 90% of pull requests pass security gates on first attempt.
+- => 90% of pull requests pass security gates on first attempt.
 - Policy effectiveness review conducted **annually* by the Engineering Team Lead and Security Engineer; output feed the ISMS continual-improvement plan.
 
 ### 6.11 Exceptions
