@@ -112,7 +112,7 @@ Currently **not in use**. If reintroduced:
 - Temporary exceptions are reviewed within **30 days**.
 
 ### 6.12 Enforcement
-Non-compliance may result in [TBD].
+Non-compliance may result in a written warning.
 
 ---
 
