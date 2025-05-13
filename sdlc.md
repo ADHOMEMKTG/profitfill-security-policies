@@ -82,9 +82,9 @@ third-party libraries maintained by the company.
 
 ### 6.6 Deployment & Release
 1. Only artefacts produced by the signed CI pipeline may be deployed via AWS CDK pipelines.
-2. Possible promotion paths:
-   - test(test) -> devStaging(production) -> master(production) with manual approval for master
-   - test(test) -> master(production) with manual approval for master
+2. Possible promotion paths with the following format - environment(git branch):
+   - test(test) -> production(devStaging) -> production(master) with manual approval for the master branch
+   - test(test) -> production(master) with manual approval for the master branch
    - dev -> staging -> production with manual approval for production. <-- This will be our ideal promotion path.
 4. Environments are segregated by labeling in AWS; production data never used in lower tiers.
 
