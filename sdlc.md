@@ -1,5 +1,5 @@
 # Secure Development Life Cycle (SDLC) Policy
-**Version:** 0.1.1 (Draft) **Owner:** Engineering Team Lead (Shamari Ishmael) **Approved by:** [TBD] **Effective date:** [TBD]
+**Version:** 1.0.0 **Owner:** Engineering Team Lead (Shamari Ishmael) **Approved by:** Security Engineer (D'Shon Henry) **Effective date:** 2025-05-13
 
 ---
 
