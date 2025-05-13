@@ -123,4 +123,4 @@ Non-compliance may result in code being rejected.
 | Version   | Date         | Description                 | Author                                  |
 | --------- | ------------ | --------------------------- | --------------------------------------- |
 | 0.1       | 2025-04-17   | Initial draft for ISO 27001 | Engineering Team Lead (Shamari Ishmael) |
-| 0.1.1     | 2025-05-13   | Updated promotion paths     | Engineering Team Lead (Shamari Ishmael) |
+| 1.0.0     | 2025-05-13   | Updated promotion paths     | Engineering Team Lead (Shamari Ishmael) |
