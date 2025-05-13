@@ -1,5 +1,5 @@
 # Secure Development Life Cycle (SDLC) Policy
-**Version:** 0.1 (Draft) **Owner:** Engineering Team Lead (Shamari Ishmael) **Approved by:** [TBD] **Effective date:** [TBD]
+**Version:** 0.1.1 (Draft) **Owner:** Engineering Team Lead (Shamari Ishmael) **Approved by:** [TBD] **Effective date:** [TBD]
 
 ---
 
@@ -82,8 +82,11 @@ third-party libraries maintained by the company.
 
 ### 6.6 Deployment & Release
 1. Only artefacts produced by the signed CI pipeline may be deployed via AWS CDK pipelines.
-2. Promotion path: dev -> staging -> production with manual approval for production.
-3. Environments are segregated by labeling in AWS; production data never used in lower tiers.
+2. Possible promotion paths:
+   - test(test) -> devStaging(production) -> master(production) with manual approval for master
+   - test(test) -> master(production) with manual approval for master
+   - dev -> staging -> production with manual approval for production. <-- This will be our ideal promotion path.
+4. Environments are segregated by labeling in AWS; production data never used in lower tiers.
 
 ### 6.7 Maintenance & Support
 | Vulnerability severity | Remediation deadline  |
@@ -117,6 +120,7 @@ Non-compliance may result in code being rejected.
 ---
 
 ## 7. Change Log
-| Version | Date       | Description                 | Author                                  |
-| ------- | ---------- | --------------------------- | --------------------------------------- |
-| 0.1     | 2025-04-17 | Initial draft for ISO 27001 | Engineering Team Lead (Shamari Ishmael) |
+| Version   | Date         | Description                 | Author                                  |
+| --------- | ------------ | --------------------------- | --------------------------------------- |
+| 0.1       | 2025-04-17   | Initial draft for ISO 27001 | Engineering Team Lead (Shamari Ishmael) |
+| 0.1.1     | 2025-05-13   | Updated promotion paths     | Engineering Team Lead (Shamari Ishmael) |
